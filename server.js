@@ -1,0 +1,1 @@
+require('harp').server('public', { port: process.env.PORT || 1337 })

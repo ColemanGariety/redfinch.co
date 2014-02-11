@@ -1,0 +1,80 @@
+@font-face {
+  font-family: 'Proxima Nova';
+  font-weight: normal;
+  font-style: normal;
+  src: url('/proxima-nova-regular.otf');
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  font-weight: normal;
+  font-style: italic;
+  src: url('proxima-nova-regitalic.otf')
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  font-weight: bold;
+  font-style: italic;
+  src: url('proxima-nova-bold.otf')
+}
+
+body {
+  font-family: 'Proxima Nova';
+  text-align: center;
+  color: #333;
+  background-color: white;
+}
+
+p {
+  /* text-align: left; */
+  max-width: 400px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 3em;
+  margin: 0;
+}
+
+h3 {
+  font-size: 1.5em;
+  font-weight: normal;
+}
+
+#finch {
+  width: 300px;
+  margin: -35px;
+}
+
+button {
+  font-size: 1.5em;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  color: white;
+  background: #ed3551;
+  border-radius: 6px;
+}
+
+button:hover {
+  opacity: .9;
+}
+
+button:active {
+  opacity: 1;
+}
+
+.browser img {
+  max-width: 587px;
+}
+
+.browser img:hover {
+  opacity: .85;
+  cursor: pointer;
+}
+
+.browser img:active {
+  opacity: 1;
+}
